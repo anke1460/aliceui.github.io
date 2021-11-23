@@ -266,7 +266,6 @@ $.getJSON('/docs/widgets.json?nowrap', function(data) {
             .html(name);
         moduleNode.find('.alice-module-version').html(
           '<a href="http://spmjs.io/package/alice-' + name + '" target="_blank">' +
-            '<img src="http://spmjs.io/badge/alice-' + name + '">' +
           '</a>'
         );
         moduleNode.appendTo('.alice-modules');
